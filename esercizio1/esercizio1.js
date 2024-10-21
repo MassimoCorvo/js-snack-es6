@@ -4,17 +4,17 @@ const biciArray = [{ nome: "Bianchi", peso: 12 },
 { nome: "Whistle", peso: 9 },
 { nome: "Bottecchia", peso: 11 }];
 
-const result = sort(biciArray);
+const result = sortByWeight(biciArray);
 document.getElementById("result").innerHTML = "Bici:" + result.nome + " " + result.peso +"Kg";
 
 //FUNCTION
 
 /**
- * Description
+ * Funzione che restituisce la bici con il peso più basso
  * @param {array} array
- * @returns {array}
+ * @returns {object}
  */
-function sort( array ) {
+function sortByWeight( array ) {
     let bike = array[0];
     for( let i = 1; i < array.length; i++)
     {   

@@ -110,8 +110,8 @@ const arraySquadre = [
 ];
 
 generatePointsFouls ( arraySquadre );
-console.log( arraySquadre);
-console.log(createNewArray( arraySquadre ));
+console.log( arraySquadre );
+console.log( createNewArray(arraySquadre) );
 
 //FUNCTIONS
 
