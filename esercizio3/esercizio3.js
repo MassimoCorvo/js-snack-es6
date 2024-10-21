@@ -16,7 +16,7 @@ while ( input1 < 0 || input2 < 1 || input1 > array1.length || input2 > array1.le
 
 console.log( "a: ", input1);
 console.log("b: ", input2);
-console.log( funzione( array1, input1 , input2) );
+console.log( arrayFromAToB( array1, input1 , input2) );
 
 
 //FUNCTIONS
@@ -28,7 +28,7 @@ console.log( funzione( array1, input1 , input2) );
  * @param {number} b
  * @returns {array}
  */
-function funzione ( array, a, b ){
+function arrayFromAToB ( array, a, b ){
 
     const newArray = [];
     
