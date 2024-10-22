@@ -117,7 +117,6 @@ console.log( createNewArray(arraySquadre) );
 
 /** 
  * Funzione che genera punti e falli subiti per ogni squadra
- * Description
  * @param {array} array
  */
 function generatePointsFouls ( array ){

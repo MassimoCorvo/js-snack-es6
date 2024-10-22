@@ -1,6 +1,3 @@
-// Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
-//La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
-
 const array1 = ["Marco", "Massimo", "Giovanni", "Claudia", "Davide", "Daniela", "Sonia", "Francesco", "Paola"];
 
 console.log(array1);
@@ -15,7 +12,7 @@ while ( input1 < 0 || input2 < 1 || input1 > array1.length || input2 > array1.le
 }
 
 console.log( "a: ", input1);
-console.log("b: ", input2);
+console.log( "b: ", input2);
 console.log( arrayFromAToB( array1, input1 , input2) );
 
 
